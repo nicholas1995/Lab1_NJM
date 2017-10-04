@@ -14,8 +14,6 @@ void main(void)
     
     for(counter=1;counter<16;counter++)
     {
-
-
         PORTB=counter;
     }
 }
