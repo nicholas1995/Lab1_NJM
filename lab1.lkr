@@ -18,7 +18,8 @@ LIBPATH .
   CODEPAGE   NAME=page       START=0x0               END=_CODEEND
   CODEPAGE   NAME=debug      START=_DEBUGCODESTART   END=_CEND        PROTECTED
 #ELSE
-  CODEPAGE   NAME=page       START=0x0               END=0x7FFF                        
+  CODEPAGE   NAME=page       START=0x0               END=0x3FFF
+  CODEPAGE   NAME=filter     START=0x4000             END=0x7FFF  
 
 
 #FI

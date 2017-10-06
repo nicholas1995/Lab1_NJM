@@ -14,7 +14,10 @@ void main(void)
     
     for(counter=1;counter<16;counter++)
     {
-        
+        _asm
+        nop
+        nop
+        _endasm
         PORTB=counter;
     }
 }
