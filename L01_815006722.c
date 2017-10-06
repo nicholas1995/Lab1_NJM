@@ -8,7 +8,6 @@ void main(void)
 {
     
      int counter;               //Initialize counter
-     int c;
     TRISB=0x00;                 //Set PortB as outputs. 
     PORTB=0x01;                 //Set all outputs on PortB as 0 initially. 
 
