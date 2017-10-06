@@ -18,8 +18,8 @@ LIBPATH .
   CODEPAGE   NAME=page       START=0x0               END=_CODEEND
   CODEPAGE   NAME=debug      START=_DEBUGCODESTART   END=_CEND        PROTECTED
 #ELSE
-  CODEPAGE   NAME=page1       START=0x0               END=0x3FFF                        //Large model linker script which contains 2 pages
-  CODEPAGE   NAME=page2       START=0x4000              END=0x7FFF
+  CODEPAGE   NAME=page       START=0x0               END=0x7FFF                        
+
 
 #FI
 
