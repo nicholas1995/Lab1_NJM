@@ -6,8 +6,11 @@
 
 
 void main(void)
-{
+{     
        int counter;
+       TRISB=0x00;
+       PORTB=0x00;
+       
        for(counter=1;counter<16;counter++)
       {
          _asm
