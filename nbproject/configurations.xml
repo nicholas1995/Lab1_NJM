@@ -64,7 +64,7 @@
         <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
       </makeCustomizationType>
       <item path="/Users/nicholasmitchell/MPLABXProjects/L01_815006722.X/asm.asm"
-            ex="true"
+            ex="false"
             overriding="false">
         <C18>
         </C18>
@@ -74,10 +74,6 @@
         </C18-LD>
         <C18LanguageToolchain>
         </C18LanguageToolchain>
-      </item>
-      <item path="/Users/nicholasmitchell/MPLABXProjects/L01_815006722.X/lessons.c"
-            ex="true"
-            overriding="false">
       </item>
       <C18>
         <property key="code-model" value="ms"/>
