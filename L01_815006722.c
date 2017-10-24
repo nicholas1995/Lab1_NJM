@@ -1,23 +1,22 @@
 #include<p18f452.h>
 
-#pragma config OSC = HS         // Oscillator Selection bits (HS oscillator)
-#pragma config WDT = OFF        // Watchdog Timer Enable bit (WDT disabled (control is placed on the SWDTEN bit))
-#pragma config LVP = OFF        // Low Voltage ICSP Enable bit (Low Voltage ICSP disabled)
+#pragma config OSC = HS        
+#pragma config WDT = OFF        
+#pragma config LVP = OFF     
 
 
 void main(void)
 {     
-       int counter;
+       int counter=0;
        TRISB=0x00;
        PORTB=0x00;
        
        for(counter=1;counter<16;counter++)
       {
-         _asm
-         nop
-         nop
-        _endasm
         PORTB=counter;
       } 
+       _asm
+               sleep
+        _endasm
 }
 
