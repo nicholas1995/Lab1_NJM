@@ -65,6 +65,14 @@
       <item path="/Users/nicholasmitchell/MPLABXProjects/L01_815006722.X/lab1.c"
             ex="true"
             overriding="false">
+        <C18>
+        </C18>
+        <C18-AS>
+        </C18-AS>
+        <C18-LD>
+        </C18-LD>
+        <C18LanguageToolchain>
+        </C18LanguageToolchain>
       </item>
       <C18>
         <property key="code-model" value="ms"/>
