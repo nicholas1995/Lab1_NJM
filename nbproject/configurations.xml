@@ -14,6 +14,7 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>/Users/nicholasmitchell/MPLABXProjects/L01_815006722.X/lab1.c</itemPath>
+      <itemPath>/Users/nicholasmitchell/MPLABXProjects/L01_815006722.X/timer_0.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -61,6 +62,10 @@
         <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
         <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
       </makeCustomizationType>
+      <item path="/Users/nicholasmitchell/MPLABXProjects/L01_815006722.X/lab1.c"
+            ex="true"
+            overriding="false">
+      </item>
       <C18>
         <property key="code-model" value="ms"/>
         <property key="data-model" value="oa-"/>
